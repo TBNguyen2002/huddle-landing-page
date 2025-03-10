@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+  background: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @apply bg-veryPaleCyan;
+}
+
+@media screen(lg) {
+  #hero {
+    background: url("../images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply bg-veryPaleCyan;
+  }
+}
